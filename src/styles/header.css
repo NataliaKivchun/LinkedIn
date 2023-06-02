@@ -3,15 +3,21 @@
   width: 100%;
   display: flex;
   align-items: stretch;
-  justify-content: space-evenly;
   min-height: 5rem;
   background: #ffffff;
   font-size: 0.75rem;
   font-weight: 700;
 }
 
+.header-logo {
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .navigation-panel {
-  width: 30%;
+  width: 34%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -55,8 +61,9 @@
 .header-search-panel {
   display: flex;
   align-items: center;
-  width: 25%;
+  width: 26%;
   border-right: 1px solid #f4f4f4;
+  padding-left: 2rem;
 }
 
 .header-search-input::placeholder {
@@ -72,10 +79,11 @@
 }
 
 .header-profile-panel {
-  width: 23%;
+  width: 24%;
   display: flex;
   align-items: center;
   column-gap: 1rem;
+  padding-left: 2rem;
 }
 
 .header-profile-username {
