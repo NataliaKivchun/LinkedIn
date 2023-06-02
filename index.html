@@ -14,14 +14,18 @@
     <link rel="stylesheet" href="./src/styles/reset.css" />
     <link rel="stylesheet" href="./src/styles/styles.css" />
     <link rel="stylesheet" href="./src/styles/header.css" />
+    <link rel="stylesheet" href="./src/styles/new-post-section.css" />
   </head>
   <body>
     <header class="header">
-      <img
-        src="./src/assets/icons/header-icons/logo-icon.svg"
-        alt="Logo image"
-        class="logo-img"
-      />
+      <div class="header-logo">
+        <img
+          src="./src/assets/icons/header-icons/logo-icon.svg"
+          alt="Logo image"
+          class="logo-img"
+        />
+      </div>
+
       <nav class="navigation-panel">
         <div class="navigation-item navigation-item--active">
           <img
@@ -110,7 +114,59 @@
           <section class="new-post-section">
             <h2 class="new-post-section__title">New post</h2>
             <hr class="new-post-section__line" />
-            <!--new-post-section-form-->
+            <form class="new-post-section__form" action="">
+              <input
+                class="new-post-section__input"
+                type="text"
+                placeholder="What's on your mind?"
+              />
+              <input
+                id="file-attach-input"
+                class="new-post-section__file-attach"
+                type="file"
+              />
+              <label
+                class="new-post-section__file-attach-label"
+                for="file-attach-input"
+                ><img
+                  src="./src/assets/icons/file-attach-icon.svg"
+                  alt="File attach"
+                  class="file-attach-icon"
+              /></label>
+              <input
+                id="image-attach-input"
+                class="new-post-section__file-attach"
+                type="file"
+                accept=".png, .gif, .jpeg, .svg, .jpg"
+              />
+              <label
+                class="new-post-section__file-attach-label"
+                for="image-attach-input"
+                ><img
+                  src="./src/assets/icons/image-attach-icon.svg"
+                  alt="Image attach"
+                  class="file-attach-icon"
+              /></label>
+              <input
+                id="video-attach-input"
+                class="new-post-section__file-attach"
+                type="file"
+                accept=".asf, .mp4, .flv, .mkv, .mov, .avi, .wmv"
+              />
+              <label
+                class="new-post-section__file-attach-label"
+                for="video-attach-input"
+                ><img
+                  src="./src/assets/icons/video-attach-icon.svg"
+                  alt="Video attach"
+                  class="file-attach-icon"
+              /></label>
+              <input
+                class="new-post-section__send-button"
+                type="image"
+                src="./src/assets/icons/send-post-icon.svg"
+              />
+            </form>
           </section>
         </div>
         <div class="main-sidebar"></div>
