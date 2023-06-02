@@ -1,0 +1,22 @@
+.profile-section {
+    background: #FFFFFF;
+    background-image: url(../assets/images/profile-background.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    padding: 2rem;
+    text-align: center;
+    color: #181818;
+}
+
+.profile-section__user-avatar {
+    margin-top: 23%;
+
+}
+.profile-section__username {
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+.profile-section__user-about {
+    margin-top: 0.6rem;
+}
