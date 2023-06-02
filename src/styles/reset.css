@@ -67,3 +67,7 @@ button{
 img{
   vertical-align: top;
 }
+
+input {
+  border: none;
+}

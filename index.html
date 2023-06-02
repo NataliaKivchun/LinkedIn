@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LinkedIn</title>
-</head>
-<body>
-    
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/styles.css" />
+    <link rel="stylesheet" href="./src/styles/header.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="./src/assets/icons/header-icons/logo-icon.svg"
+        alt="Logo image"
+        class="logo-img"
+      />
+      <nav class="navigation-panel">
+        <div class="navigation-item navigation-item--active">
+          <img
+            src="./src/assets/icons/header-icons/feed-icon.svg"
+            alt="Feed icon"
+            class="navigation-item__icon"
+          />
+          <p class="navigation-item__title">Feed</p>
+        </div>
+        <div class="navigation-item">
+          <img
+            src="./src/assets/icons/header-icons/network-icon.svg"
+            alt="Network icon"
+            class="navigation-item__icon"
+          />
+          <p class="navigation-item__title">Network</p>
+        </div>
+        <div class="navigation-item">
+          <img
+            src="./src/assets/icons/header-icons/jobs-icon.svg"
+            alt="Jobs icon"
+            class="navigation-item__icon"
+          />
+          <p class="navigation-item__title">Jobs</p>
+        </div>
+        <div class="navigation-item chat-item">
+          <img
+            src="./src/assets/icons/header-icons/chat-icon.svg"
+            alt="Chat icon"
+            class="navigation-item__icon"
+          />
+          <p class="navigation-item__title">Chat</p>
+        </div>
+        <div class="navigation-item">
+          <img
+            src="./src/assets/icons/header-icons/notices-icon.svg"
+            alt="Notices icon"
+            class="navigation-item__icon"
+          />
+          <p class="navigation-item__title">Notices</p>
+        </div>
+      </nav>
+      <div class="header-search-panel">
+        <img
+          src="./src/assets/icons/header-icons/search-icon.svg"
+          alt="Search icon"
+          class="header-search-icon"
+        />
+        <input class="header-search-input" type="text" placeholder="Search" />
+      </div>
+      <div class="header-profile-panel">
+        <img
+          src="./src/assets/images/header-profile-avatar-image.svg"
+          alt="Header profile avatar"
+          class="header-profile-avatar"
+        />
+        <div class="header-profile-info">
+          <p class="header-profile-username">
+            D. Kargaev<span class="header-profile-userlabel">you</span>
+          </p>
+          <p class="header-profile-views">
+            367 views today
+            <span class="header-profile-views-dynamic">+32</span>
+            <img
+              src="./src/assets/icons/header-icons/up-dynamic-icon.svg"
+              alt="Dynamic icon"
+              class="up-dynamic-icon"
+            />
+          </p>
+        </div>
+      </div>
+      <div class="header-other">
+        <div class="navigation-item">
+          <img
+            src="./src/assets/icons/header-icons/other-icon.svg"
+            alt="Other icon"
+            class="navigation-item__icon"
+          />
+          <p class="navigation-item__title">Other</p>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <div class="main-content">
+          <section class="new-post-section">
+            <h2 class="new-post-section__title">New post</h2>
+            <hr class="new-post-section__line" />
+            <!--new-post-section-form-->
+          </section>
+        </div>
+        <div class="main-sidebar"></div>
+      </div>
+    </main>
+    <footer>
+      <div class="container"></div>
+    </footer>
+  </body>
 </html>

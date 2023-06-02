@@ -1,0 +1,43 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #f7f9fb;
+}
+
+.main {
+  padding-top: 7.5rem;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1620px;
+}
+
+.main-container {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 2.5rem;
+  justify-content: stretch;
+}
+
+/*new-post-section.css*/
+.new-post-section {
+  padding: 1.5rem 1.8rem;
+  border-radius: 4px;
+  background: #ffffff;
+  min-width: 70%;
+}
+
+.new-post-section__title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.new-post-section__line {
+  margin-top: 1.25rem;
+  color: #f4f4f4;
+}
