@@ -21,6 +21,31 @@ body {
   column-gap: 2.5rem;
 }
 
+.normal-button {
+  background: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
+  border-radius: 4px;
+  padding: 0.55rem;
+}
+
 .main-content {
   min-width: 71%;
+}
+
+.main-sidebar {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.write-new-article {
+  background: #ffffff;
+  padding: 1.5rem 2rem;
+}
+
+.write-new-article__button {
+    font-size: 0.75rem;
+    font-weight: 700;
+    width: 100%;
+    color: #FFFFFF;
+    text-transform: uppercase;
 }

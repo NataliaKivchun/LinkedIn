@@ -1,5 +1,5 @@
 .new-post-section {
-    padding: 1.5rem 1.8rem;
+    padding: 1.5rem 2rem;
     border-radius: 4px;
     background: #ffffff;
   }
@@ -12,7 +12,7 @@
   
   .new-post-section__line {
     margin-top: 1.25rem;
-    color: #f4f4f4;
+    border: 1px solid #F4F4F4;
   }
   
   .new-post-section__form {
@@ -25,8 +25,16 @@
   
   .new-post-section__input {
     font-size: 1.13rem;
-    color: #CECECE;
     margin-right: auto;
+  }
+
+  .new-post-section__input::placeholder {
+    color: #CECECE;
+  }
+
+  .new-post-section__input:focus {
+    border-bottom: 2px solid #cecece;
+    outline: none;
   }
   
   .new-post-section__file-attach {
@@ -42,10 +50,9 @@
   }
   
   .new-post-section__send-button {
-    background: linear-gradient(180deg, #0077b5 0%, #0e6795 100%);
-    border-radius: 4px;
     width: 2rem;
     height: 2rem;
-    padding: 0.5rem;
     margin-left: 0.5rem;
   }
+
+  

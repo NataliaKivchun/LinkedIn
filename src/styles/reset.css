@@ -62,6 +62,7 @@ button{
   background: transparent;
   cursor: pointer;
   border: none;
+  font-family: inherit;
 }
 
 img{
@@ -70,4 +71,10 @@ img{
 
 input {
   border: none;
+}
+
+select {
+  border: none;
+  background: transparent;
+  font-family: inherit;
 }

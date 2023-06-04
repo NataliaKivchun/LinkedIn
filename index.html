@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./src/styles/styles.css" />
     <link rel="stylesheet" href="./src/styles/header.css" />
     <link rel="stylesheet" href="./src/styles/new-post-section.css" />
+    <link rel="stylesheet" href="./src/styles/post-sort.css" />
     <link rel="stylesheet" href="./src/styles/profile-section.css" />
   </head>
   <body>
@@ -163,11 +164,23 @@
                   class="file-attach-icon"
               /></label>
               <input
-                class="new-post-section__send-button"
+                class="new-post-section__send-button normal-button"
                 type="image"
                 src="./src/assets/icons/send-post-icon.svg"
               />
             </form>
+          </section>
+          <section class="posts-list-section">
+            <div class="post-sort">
+                <div class="post-sort__line"></div>
+                <div class="post-sort__sort-by-select">
+                    <label class="post-sort__select-label" for="sort-by-select">sort by:</label>
+                    <select class="post-sort__select" name="sort-by" id="sort-by-select" >
+                        <option class="post-sort__select-option" value="trending" >trending</option>
+                    </select>
+                </div>
+                <div class="post-sort__line"></div>
+            </div>
           </section>
         </div>
         <div class="main-sidebar">
@@ -176,6 +189,9 @@
                 <h3 class="profile-section__username">Dmitry Kargaev</h3>
                 <p class="profile-section__user-about">Freelance UX/UI designer, 80+ projects in web design, mobile apps (iOS & android) and creative projects. Open to offers.</p>
             </section>
+            <div class="write-new-article">
+                <button class="write-new-article__button normal-button" type="button">write new article</button>
+            </div>
         </div>
       </div>
     </main>

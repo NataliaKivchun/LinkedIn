@@ -1,0 +1,33 @@
+.post-sort {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+
+.post-sort__line {
+    height: 1px;
+    width: 40%;
+    background: #E7E7E7;;
+}
+
+.post-sort__sort-by-select {
+    flex-shrink: 0;
+    padding: 0 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.post-sort__select-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.post-sort__select {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #0275b1;
+    text-transform: uppercase;
+}
