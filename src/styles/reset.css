@@ -77,4 +77,5 @@ select {
   border: none;
   background: transparent;
   font-family: inherit;
+  cursor: pointer;
 }

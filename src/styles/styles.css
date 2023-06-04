@@ -6,6 +6,17 @@ body {
   background: #f7f9fb;
 }
 
+h3 {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.section-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .main {
   padding-top: 7.5rem;
 }
@@ -27,6 +38,14 @@ body {
   padding: 0.55rem;
 }
 
+.transparent-button {
+  background: transparent;
+  text-transform: uppercase;
+  color: #0275b1;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
 .main-content {
   min-width: 71%;
 }
@@ -37,15 +56,20 @@ body {
   row-gap: 1.5rem;
 }
 
+.section-line {
+  margin-top: 1.25rem;
+  border: 1px solid #f4f4f4;
+}
+
 .write-new-article {
   background: #ffffff;
   padding: 1.5rem 2rem;
 }
 
 .write-new-article__button {
-    font-size: 0.75rem;
-    font-weight: 700;
-    width: 100%;
-    color: #FFFFFF;
-    text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+  width: 100%;
+  color: #ffffff;
+  text-transform: uppercase;
 }

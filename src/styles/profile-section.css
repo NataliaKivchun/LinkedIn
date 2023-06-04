@@ -14,9 +14,10 @@
 
 .profile-section__username {
   margin-top: 1rem;
-  font-weight: 700;
 }
 
 .profile-section__user-about {
+  font-size: 0.7rem;
+  line-height: 1.5;
   margin-top: 0.6rem;
 }

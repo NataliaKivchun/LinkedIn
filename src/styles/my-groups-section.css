@@ -1,0 +1,27 @@
+.my-groups-section {
+  padding: 1.5rem 2rem;
+  background: #fcfdfd;
+  border-radius: 4px;
+}
+
+.my-groups-section__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-groups-section-list {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.6rem;
+}
+
+.my-groups-section-list__item {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  background: #ffffff;
+  border: 1px solid #f4f4f4;
+  border-radius: 6px;
+  padding: 0.9rem;
+}
