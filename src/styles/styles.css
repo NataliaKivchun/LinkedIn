@@ -6,19 +6,24 @@ body {
   background: #f7f9fb;
 }
 
+.main {
+  padding-top: 7.5rem;
+}
+
 h3 {
   font-size: 0.9rem;
   font-weight: 700;
+}
+
+section {
+  padding: 1.5rem 2rem;
+  border-radius: 4px;
 }
 
 .section-title {
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
-}
-
-.main {
-  padding-top: 7.5rem;
 }
 
 .container {
@@ -59,6 +64,11 @@ h3 {
 .section-line {
   margin-top: 1.25rem;
   border: 1px solid #f4f4f4;
+}
+
+.section-list {
+  display: flex;
+  padding: 1.4rem 0;
 }
 
 .write-new-article {

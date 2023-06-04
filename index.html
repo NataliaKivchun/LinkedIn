@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="./src/styles/post-sort.css" />
     <link rel="stylesheet" href="./src/styles/profile-section.css" />
     <link rel="stylesheet" href="./src/styles/my-groups-section.css" />
+    <link rel="stylesheet" href="./src/styles/followed-hashtags-section.css" />
+    <link rel="stylesheet" href="./src/styles/trending-articles-section.css" />
   </head>
   <body>
     <header class="header">
@@ -171,7 +173,7 @@
               />
             </form>
           </section>
-          <section class="posts-list-section">
+          <div class="posts-list">
             <div class="post-sort">
               <div class="post-sort__line"></div>
               <div class="post-sort__sort-by-select">
@@ -190,7 +192,7 @@
               </div>
               <div class="post-sort__line"></div>
             </div>
-          </section>
+          </div>
         </div>
         <div class="main-sidebar">
           <section class="profile-section">
@@ -221,7 +223,7 @@
               </button>
             </div>
             <hr class="section-line" />
-            <div class="my-groups-section-list">
+            <div class="my-groups-section-list section-list">
               <div class="my-groups-section-list__item">
                 <img
                   src="./src/assets/images/group-1-image.jpg"
@@ -239,7 +241,7 @@
                   class="my-groups-section-list__item-img"
                 />
                 <h3 class="my-groups-section-list__item-title">
-                    Digital freelancers group
+                  Digital freelancers group
                 </h3>
               </div>
               <div class="my-groups-section-list__item">
@@ -249,10 +251,56 @@
                   class="my-groups-section-list__item-img"
                 />
                 <h3 class="my-groups-section-list__item-title">
-                    Interaction design association
+                  Interaction design association
                 </h3>
               </div>
             </div>
+            <button class="transparent-button" type="button">
+              Show all (8)
+            </button>
+          </section>
+          <section class="followed-hashtags-section">
+            <h2 class="section-title">Followed hashtags</h2>
+            <hr class="section-line" />
+            <ul class="followed-hashtags-section-list section-list">
+                <li class="followed-hashtags-section-list__item">#work</li>
+                <li class="followed-hashtags-section-list__item">#business</li>
+                <li class="followed-hashtags-section-list__item">#hr</li>
+                <li class="followed-hashtags-section-list__item">#userinterface</li>
+                <li class="followed-hashtags-section-list__item">#digital</li>
+                <li class="followed-hashtags-section-list__item">#userexperience</li>
+                <li class="followed-hashtags-section-list__item">#ux</li>
+                <li class="followed-hashtags-section-list__item">#ui</li>
+                <li class="followed-hashtags-section-list__item">#freelance</li>
+            </ul>
+          </section>
+          <section class="trending-articles-section">
+            <h2 class="section-title">Trending articles</h2>
+            <hr class="section-line" />
+            <div class="trending-articles-section-list section-list">
+                <div class="trending-articles-section-list__item">
+                    <img src="./src/assets/images/trending-article-1-image.jpg" alt="Trending article image" class="trending-articles-section-list__item-img">
+                    <div class="trending-articles-section-list__item-info">
+                        <h3 class="trending-articles-section-list__item-title">How I make cool designs?</h3>
+                        <p class="trending-articles-section-list__item-views">6,340 viewers</p>
+                    </div>
+                </div>
+                <div class="trending-articles-section-list__item">
+                    <img src="./src/assets/images/trending-article-2-image.jpg" alt="Trending article image" class="trending-articles-section-list__item-img">
+                    <div class="trending-articles-section-list__item-info">
+                        <h3 class="trending-articles-section-list__item-title">Advices for young HR-manage</h3>
+                        <p class="trending-articles-section-list__item-views">8,123 viewers</p>
+                    </div>
+                </div>
+                <div class="trending-articles-section-list__item">
+                    <img src="./src/assets/images/trending-article-3-image.jpg" alt="Trending article image" class="trending-articles-section-list__item-img">
+                    <div class="trending-articles-section-list__item-info">
+                        <h3 class="trending-articles-section-list__item-title">A little about usability testing</h3>
+                        <p class="trending-articles-section-list__item-views">3,912 viewers</p>
+                    </div>
+                </div>
+            </div>
+
           </section>
         </div>
       </div>
