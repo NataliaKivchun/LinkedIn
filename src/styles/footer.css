@@ -1,0 +1,89 @@
+.footer {
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(241, 244, 248, 0.8) 0%,
+    rgba(241, 244, 248, 0) 100%
+  );
+  color: #181818;
+  font-size: 0.75rem;
+  padding: 2rem 0;
+}
+
+.footer-list {
+  display: flex;
+  column-gap: 3.8rem;
+  height: min-content;
+}
+
+.footer-app-info__name {
+  padding-top: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.footer-app-info__name-part {
+  color: #0275b1;
+}
+
+.footer-navigation {
+  flex-grow: 1;
+}
+
+.footer-title {
+  font-size: 0.75rem;
+  padding-bottom: 2rem;
+}
+
+.footer-navigation__list {
+  display: flex;
+  align-content: baseline;
+  flex-wrap: wrap;
+  text-transform: capitalize;
+  row-gap: 0.75rem;
+  column-gap: 3rem;
+  font-size: 0.75rem;
+}
+
+.footer-navigation__list-item {
+  min-width: 8.7rem;
+}
+
+.footer-fast-access {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-btn {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  border: 1px solid #0275b1;
+  padding: 0.6rem 0.9rem;
+  min-width: 10.5rem;
+}
+
+.footer-fast-access__questions-btn {
+  margin-bottom: 0.62rem;
+  background: #0275b1;
+  color: #ffffff;
+}
+
+.footer-fast-access__settings-btn {
+  color: #0275b1;
+}
+
+.footer-btn-text {
+  text-transform: uppercase;
+}
+
+.footer-language__select {
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  color: #0275b1;
+  min-width: 16.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.6rem 0.9rem;
+}

@@ -14,9 +14,9 @@
 }
 
 .trending-articles-section-list__item-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .trending-articles-section-list__item-views {

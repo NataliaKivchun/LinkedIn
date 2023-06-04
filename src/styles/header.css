@@ -10,10 +10,10 @@
 }
 
 .header-logo {
-    width: 8%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navigation-panel {
@@ -28,6 +28,7 @@
 
 .navigation-item {
   text-align: center;
+  cursor: pointer;
 }
 
 .navigation-item--active {
