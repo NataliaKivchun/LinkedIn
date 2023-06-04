@@ -1,15 +1,15 @@
 .followed-hashtags-section {
-    background: #fcfdfd;
+  background: #fcfdfd;
 }
 
 .followed-hashtags-section-list {
-    flex-wrap: wrap;
-    gap: 0.65rem;
+  flex-wrap: wrap;
+  gap: 0.65rem;
 }
 
 .followed-hashtags-section-list__item {
-    background: #E9F0F8;
-    border-radius: 4px;
-    padding: 0.5rem 0.75rem;
-    cursor: pointer;
+  background: #e9f0f8;
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
 }

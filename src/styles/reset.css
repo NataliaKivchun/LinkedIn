@@ -48,18 +48,19 @@ ol[class] {
   list-style: none;
 }
 
-html{
+html {
   font-size: 16px;
 }
 
-button{
+button {
   background: transparent;
   cursor: pointer;
   border: none;
   font-family: inherit;
+  font-size: inherit;
 }
 
-img{
+img {
   vertical-align: top;
 }
 
