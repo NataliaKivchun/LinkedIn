@@ -1,7 +1,5 @@
 .my-groups-section {
-  padding: 1.5rem 2rem;
   background: #fcfdfd;
-  border-radius: 4px;
 }
 
 .my-groups-section__header {
@@ -10,8 +8,6 @@
 }
 
 .my-groups-section-list {
-  margin-top: 1.25rem;
-  display: flex;
   flex-direction: column;
   row-gap: 0.6rem;
 }

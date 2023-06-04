@@ -5,12 +5,6 @@
   box-sizing: border-box;
 }
 
-/* Убираем внутренние отступы */
-ul[class],
-ol[class] {
-  padding: 0;
-}
-
 /* Убираем внешние отступы */
 body,
 h1,
@@ -45,7 +39,7 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
-  line-height: 1.2;
+  line-height: 1.25;
 }
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
