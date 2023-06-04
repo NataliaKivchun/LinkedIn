@@ -20,11 +20,6 @@ align-items: center;
     text-transform: uppercase;
 }
 
-.post-sort__select-label {
-    font-size: 0.75rem;
-    font-weight: 700;
-}
-
 .post-sort__select {
     font-size: 0.75rem;
     font-weight: 700;
